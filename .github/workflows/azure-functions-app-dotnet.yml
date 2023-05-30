@@ -18,9 +18,7 @@
 
 name: Deploy DotNet project to Azure Function App
 
-on: 
-  push:
-    branches: ["main"]
+on:
   workflow_dispatch: 
     inputs:
       logLevel:
